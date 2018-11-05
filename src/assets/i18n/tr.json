@@ -1,0 +1,65 @@
+{
+    "Language": "DİL",
+    "LanguageSelected": "Türkçe",
+    "About": {
+        "About": {
+            "Header": "HAKKIMDA",
+            "Text": "Her zaman çevreme kalite standartlarını getirmeyi hedefliyorum. Bu sebepten Yazılım Mühendisliği öğrenimi gördüm. Bu eğitim sayesinde mühendlislik methodlojileri ve geliştirme standartlarını öğrendim. Eğitimimde genel olarak Yazılım Mühendisliği Prensipleri ve genel olarak gördüğüm dersler Veri Madencliği, Yapay Zeka, Sosyal Medya Pazarlama ve Yönetimi, Görüntü İşleme vb... Bu ve buna benzer konsepler bana gelecekte bilgisayar bilimlerinin daha da yükseleceğini öngörmemi sağladı. Bu gibi teknolojilere entegre etmek ve bu teknolojilere daha değerli kılmak istiyorum."
+        },
+        "Experience": {
+            "Header": "DENEYİMLER",
+            "Experiences": {
+                "0":{
+                    "Job": "Yazılım Uzmanı",
+                    "Date": "Haziran 2017–Kasım 2017",
+                    "Firm": "Volant Yazılım A.Ş., İstanbul (Türkiye)",
+                    "JobDescription": "ERP projesi için mobil uygulama geliştirdim , geliştirilen uygulama anlık rapor erişimi için kullanılıyor. Sayısal verileri mobile arayüze aktarmak için web servis projesi geliştirdim. Mobil uygulama geliştirilirken Ionic 3, web servis tarafında ise ASP.NET WEBAPI teknolojilerini kullandım. Bu oluşturulan web servisin veri geri dönüş türü JSON formatı olarak geliştirildi. Oluştuğum uygulama Android ve IOS platformlarında yayınlandı."
+                },
+                "1":{
+                    "Job": "Yazılım Uzmanı",
+                    "Date": "Haziran 2016–Eylül 2016(Stajyer)",
+                    "Firm": "Volant Yazılım A.Ş., İstanbul (Türkiye)",
+                    "JobDescription": "ERP projesi için anlık web tabanlı anlık raporlama geliştirildi. Oluşturulan site mobil cihazlar üzerinde çalışacak halde geliştirildi. ERP projesi için web servis geliştirildi. Oluşturulan servisin amacı raporlama için istenen verilere erişmek için geliştirildi. Proje ASP.NET MVC 5 ve WCF Servis teknolojileri kullanılarak geliştirildi. WCF servis uygulamasının verileri aktarma formatı olarak JSON kullanıldı. Projedeki raporlama kısımlardında Chartlar kullanıldı.Bu chartlar NVD3 kütüphanesi kullanılar tasarlandı."
+                },
+                "2":{
+                    "Job": "Yazılım Uzmanı",
+                    "Date": "Şubat 2015–Eylül 2015(Stajyer)",
+                    "Firm": "Start-up (Veri Madencliği Projesi), İstanbul (Türkiye)",
+                    "JobDescription": "Projenin veritabanları üzerinden anlık sorgu hazırlama aracı geliştirildi.Geliştirilern bu araç MSSQL, MySQL ve Oracle veri tabanlarını desteklemektedir.Bunun yanında basit components tasarımları, csv and excel dosya içeri aktarma işlemleri için kodlar yazıldı. Proje Visual Studio kullanılarak C# yazılım dilinde geliştirildi. Projenin verilerin saklanmasında Mysql veri tabanı Entity Framework aracılığıyla kullanıldı. Projede DevExpress bileşenleri kullanıldı.Bu bileşenler kullanıcı deneyimini daha iyi hale getirmek                    için eklendi."
+                }            
+            }
+        },
+        "Education": {
+            "Header": "EĞİTİM",
+            "University": {
+                "Name": "İstanbul Aydın Üniversitesi(Lisans)",
+                "Department": "Yazılım Mühendisliği(İngilizce)",
+                "GPA": "ORT",
+                "Date": "Eylül 2015 - Eylül 2017"
+            },
+            "AssociateDegree": {
+                "Name": "İstanbul Aydın Üniversitesi(Önlisans)",
+                "Department": "Bilgisayar Programcılığı(İngilizce)",
+                "GPA": "ORT",
+                "Date": "Eylül 2012 – Haziran 2015"
+            }
+        },
+        "Skills": {
+            "Header": "Yetenekler",
+            "Text":"Programlama Dilleri & Araçlar"
+        }        
+    },
+    "Contact":{
+        "Contact":"İletişim",
+        "ContactText":"İletişim Metni",
+        "Name":"İsminiz",
+        "Mail":"Mail Adresiniz",
+        "Subject":"Konu",
+        "Message":"Mesajınız",
+        "Send":"Gönder",
+        "Location":"İstanbul,Türkiye",
+        "Messages":{
+            "Success":"Başarıyla gönderildi"
+        }
+    }
+}

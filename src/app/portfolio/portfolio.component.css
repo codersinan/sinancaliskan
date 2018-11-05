@@ -1,0 +1,16 @@
+.bg-primary {
+    background-color: #BD5D38 !important;
+  }
+  
+  .text-primary {
+    color: #BD5D38 !important;
+  }
+  
+  a {
+    cursor: pointer;
+    color: #BD5D38;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #824027;
+  }

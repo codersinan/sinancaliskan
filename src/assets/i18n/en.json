@@ -1,0 +1,64 @@
+{
+    "Language": "Language",
+    "LanguageSelected": "English",    
+    "About": {
+        "About": {
+            "Header": "About",
+            "Text": "I always aim to bring quality standards in to my environment. I decided to study Software Engineering to follow up engineering methodologies in development. I have educated as a general Principles of Software Engineering and some common useful courses Data Mining, Artificial Intelligent, Social Media Marketing and Management, Image Processing and so on. Thus, this kind of concepts gave me opportunity to see the future of computer science. I want to implement great software project by this valuable information."
+        },
+        "Experience": {
+            "Header": "Experience",
+            "Experiences": {
+                "0":{
+                    "Job": "Junior Develepor",
+                    "Date": "Jul 2017–Nov 2017",
+                    "Firm": "Volant Yazılım A.Ş., Istanbul (Turkey)",
+                    "JobDescription": "Develop mobile project for ERP , it provide to customer instant report. Develop web service for ERP. It provides data to mobile project.Project developed with Ionic 3 and ASP.NET WEBAPI. Web api service return results with JSON format. Published on Android store and Ios store."
+                },
+                "1":{
+                    "Job": "Junior Develepor",
+                    "Date": "Jul 2016–Sep 2016(Intern)",
+                    "Firm": "Volant Yazılım A.Ş., Istanbul (Turkey)",
+                    "JobDescription": "Develop web project for ERP instant reports. Develop web service for ERP. It provides data to web project. Project developed with ASP.NET MVC 5 and WCF service application. WCF service application return results with JSON format. Project contains Charts. That charts designed with NVD3 library."
+                },
+                "2":{
+                    "Job": "Junior Develepor",
+                    "Date": "Feb 2015–Sep 2015(Intern)",
+                    "Firm": "Start-up (Data Mining Project), Istanbul (Turkey) ",
+                    "JobDescription": "Develop database instant query part. This part supports MSSQL, MySQL and Oracle database and some simple design components, csv and excel file importer. Project developed on Visual Studio with C# language. Storing information on MySql with Entity Framework. Used DevExpress components for visualise."
+                }             
+            }
+        },
+        "Education": {
+            "Header": "Education",
+            "University": {
+                "Name": "Istanbul Aydin University(Bachelor)",
+                "Department": "Software Engineering(English)",
+                "GPA": "GPA",
+                "Date": "Sept 2015 - Sept 2017"
+            },
+            "AssociateDegree": {
+                "Name": "Istanbul Aydin University(Associate Degree)",
+                "Department": "Computer Programmer(English)",
+                "GPA": "GPA",
+                "Date": "Sep 2012 – Jun 2015"
+            }
+        },
+        "Skills": {
+            "Header": "Skills",
+            "Text":"Programming Languages & Tools"          
+        }        
+    },    
+    "Contact": {
+        "Contact": "Contact",
+        "Name": "Your Name",
+        "Mail": "Your Mail",
+        "Subject": "Subject",
+        "Message": "Your Message",
+        "Send": "Send",
+        "Location": "Istanbul,Turkey",
+        "Messages": {
+            "Success": "Successfully sended"
+        }
+    }
+}
