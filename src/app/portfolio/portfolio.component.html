@@ -7,7 +7,8 @@
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon" (click)="$event.stopPropagation(); menu._open==false ? menu.open() :menu.close();" ></span>
+    <span class="navbar-toggler-icon"
+      (click)="$event.stopPropagation(); menu._open==false ? menu.open() :menu.close();"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent" ngbDropdown #menu="ngbDropdown">
     <ul class="navbar-nav">
@@ -44,17 +45,17 @@
       </h1>
       <br>
       <div class="subheading mb-5">{{'Contact.Location'|translate}} · +90 534 064 95 46 ·
-        <a href="mailto:codersinan@gmail.com">codersinan@gmail.com</a>
+        <a href="mailto:sinan.caliskan@gmail.com">sinan.caliskan90@gmail.com</a>
       </div>
       <p class="lead mb-5">{{'About.About.Text'|translate}}</p>
       <div class="social-icons d-flex justify-content-center">
-        <a href="mailto:codersinan@gmail.com">
+        <a href="mailto:sinan.caliskan@gmail.com">
           <i class="fa fa-envelope"></i>
         </a>
         <a href="https://github.com/codersinan" target="_blank">
           <i class="fa fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/sinan-çalışkan-9bb89092" target="_blank">
+        <a href="https://www.linkedin.com/in/caliskansinan/" target="_blank">
           <i class="fa fa-linkedin"></i>
         </a>
         <a href="https://twitter.com/codersinan" target="_blank">
@@ -101,6 +102,28 @@
           <span class="text-primary">{{'About.Experience.Experiences.2.Date'|translate}}</span>
         </div>
       </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-1">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">{{'About.Experience.Experiences.3.Job'|translate}}</h3>
+          <div class="subheading mb-3">{{'About.Experience.Experiences.3.Firm'|translate}}</div>
+          <p>{{'About.Experience.Experiences.3.JobDescription'|translate}}</p>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">{{'About.Experience.Experiences.3.Date'|translate}}</span>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-1">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">{{'About.Experience.Experiences.4.Job'|translate}}</h3>
+          <div class="subheading mb-3">{{'About.Experience.Experiences.4.Firm'|translate}}</div>
+          <p>{{'About.Experience.Experiences.4.JobDescription'|translate}}</p>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">{{'About.Experience.Experiences.4.Date'|translate}}</span>
+        </div>
+      </div>
     </div>
 
   </section>
@@ -140,52 +163,50 @@
       <div class="subheading mb-3">{{'About.Skills.Text'|translate}}</div>
       <ul class="fa-ul mb-0">
         <li>
-          <i class="fa-li fa fa-check"></i>Angular
+          <i class="fa-li fa fa-check"></i>C#
+          <ngb-progressbar value="80" type="success" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
-          <i class="fa-li fa fa-check"></i>Ionic Framework
+          <i class="fa-li fa fa-check"></i>T-SQL
+          <ngb-progressbar value="80" type="info" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
-          <i class="fa-li fa fa-check"></i>Android
+          <i class="fa-li fa fa-check"></i>TypeScript
+          <ngb-progressbar value="60" type="warning" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
-          <i class="fa-li fa fa-check"></i>ASP.Net MVC 5 C#
+          <i class="fa-li fa fa-check"></i>Java
+          <ngb-progressbar value="30" type="danger" striped="true" animated="true"></ngb-progressbar>
+        </li>
+        <hr>
+        <li>
+          <i class="fa-li fa fa-check"></i>.NET Core WebApi C#
+          <ngb-progressbar value="70" type="success" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
-          <i class="fa-li fa fa-check"></i>Windows Form Application C#
+          <i class="fa-li fa fa-check"></i>Angular 2+
+          <ngb-progressbar value="60" type="info" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
-          <i class="fa-li fa fa-check"></i>DevExpress C#
+          <i class="fa-li fa fa-check"></i>Ionic Framework 3+
+          <ngb-progressbar value="60" type="warning" striped="true" animated="true"></ngb-progressbar>
         </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>.NetCore WebApi C#
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>npm
-        </li>
+        <hr>
         <li>
           <i class="fa-li fa fa-check"></i>MSSQL
+          <ngb-progressbar value="70" type="success" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
           <i class="fa-li fa fa-check"></i>Mysql
+          <ngb-progressbar value="70" type="info" striped="true" animated="true"></ngb-progressbar>
+        </li>
+        <li>
+          <i class="fa-li fa fa-check"></i>PostgreSql
+          <ngb-progressbar value="70" type="warning" striped="true" animated="true"></ngb-progressbar>
         </li>
         <li>
           <i class="fa-li fa fa-check"></i>Oracle PL/SQL
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>Restful
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>JSON
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>CSV
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>Team Foundation Server
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>Git
+          <ngb-progressbar value="40" type="danger" striped="true" animated="true"></ngb-progressbar>
         </li>
       </ul>
     </div>

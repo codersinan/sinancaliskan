@@ -8,10 +8,11 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class PortfolioComponent implements OnInit {
   constructor(private translate: TranslateService) {
-    if (translate.getBrowserLang() == 'tr')
+    if (translate.getBrowserLang() === 'tr') {
       translate.setDefaultLang('tr');
-    else
+    } else {
       translate.setDefaultLang('en');
+    }
   }
   ngOnInit() {
   }
@@ -19,12 +20,12 @@ export class PortfolioComponent implements OnInit {
     this.translate.use(language);
   }
   scroll(id) {
-    let el = document.getElementById(id);
-    if(el!=null){           
-      document.getElementsByClassName('nav-item active')[0].classList.remove('active');       
-      let active= document.getElementById(id+'Active');
+    const el = document.getElementById(id);
+    if (el != null) {
+      document.getElementsByClassName('nav-item active')[0].classList.remove('active');
+      const active = document.getElementById(id + 'Active');
       active.classList.add('active');
-      el.scrollIntoView({ behavior: 'smooth',block:'start' });
-    }      
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 }

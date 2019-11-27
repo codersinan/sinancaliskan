@@ -29,7 +29,7 @@ import { FooterComponent } from './footer/footer.component';
     AngularFirestoreModule,
     HttpClientModule,
     FormsModule,
-    NgbModule.forRoot(),
+    NgbModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
