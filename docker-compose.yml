@@ -1,0 +1,20 @@
+version: '3.5'
+
+volumes:
+  dist:
+    name: sinancaliskan
+    driver_opts:
+      type: none
+      device: ${PWD}/dist/website
+      o: bind
+
+services:
+  sh-nginx:
+    container_name: 'sinancaliskan-nginx'
+    image: nginx:1.19-alpine
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf

@@ -25,8 +25,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule,
+
     HttpClientModule,
     FormsModule,
     NgbModule,
@@ -36,7 +35,9 @@ import { FooterComponent } from './footer/footer.component';
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

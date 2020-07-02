@@ -1,11 +1,12 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: 'AIzaSyDX5MKFpIGb7L4S2vaA5WzoNtMxg_yTFKY',
-    authDomain: 'sinancaliskan-95246.firebaseapp.com',
-    databaseURL: 'https://sinancaliskan-95246.firebaseio.com',
-    projectId: 'sinancaliskan-95246',
-    storageBucket: 'sinancaliskan-95246.appspot.com',
-    messagingSenderId: '450344112216'
+    apiKey: "AIzaSyCKFNpR0EPM5LT-Dua1ceW9z_-XTcsbO-4",
+    authDomain: "sinancaliskan-9639f.firebaseapp.com",
+    databaseURL: "https://sinancaliskan-9639f.firebaseio.com",
+    projectId: "sinancaliskan-9639f",
+    storageBucket: "sinancaliskan-9639f.appspot.com",
+    messagingSenderId: "1000199047864",
+    appId: "1:1000199047864:web:0ea245741cea9963bf424d"
   }
 };

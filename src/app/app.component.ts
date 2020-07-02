@@ -11,8 +11,12 @@ export class AppComponent {
   siteStatus: string = 'loading';
 
   constructor(db: AngularFirestore, private translate: TranslateService) {
-    db.collection('/management').valueChanges().subscribe(data => {
-      this.siteStatus = data[0]['SiteStatus'];
+    db.collection('management').doc('site').valueChanges().subscribe((data: any) => {
+      if (data.status) {
+        this.siteStatus = 'online'
+      } else {
+        this.siteStatus = 'offline'
+      }
     });
     if (navigator.languages[1] == 'tr')
       translate.setDefaultLang('tr');
