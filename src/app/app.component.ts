@@ -8,19 +8,20 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  siteStatus: string = 'loading';
+  siteStatus = 'loading';
 
   constructor(db: AngularFirestore, private translate: TranslateService) {
     db.collection('management').doc('site').valueChanges().subscribe((data: any) => {
       if (data.status) {
-        this.siteStatus = 'online'
+        this.siteStatus = 'online';
       } else {
-        this.siteStatus = 'offline'
+        this.siteStatus = 'offline';
       }
     });
-    if (navigator.languages[1] == 'tr')
+    if (navigator.languages[1] === 'tr') {
       translate.setDefaultLang('tr');
-    else
+    } else {
       translate.setDefaultLang('en');
+    }
   }
 }
