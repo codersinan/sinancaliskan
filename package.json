@@ -1,12 +1,7 @@
 {
   "name": "sinancaliskan",
   "description": "Sinan Çalışlan website",
-  "version": "0.0.0",
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x",
-    "yarn": "1.x"
-  },
+  "version": "0.0.0",  
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
