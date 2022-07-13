@@ -1,7 +1,7 @@
 {
   "name": "sinancaliskan",
-  "description": "Sinan Çalışlan website",
-  "version": "0.0.0",  
+  "description": "Sinan Çalışkan website",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",

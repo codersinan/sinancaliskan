@@ -16,25 +16,25 @@
           "JobDescription": "Develop mobile project with Kuika Platform, platform help to build design and expressions. It generate ionic app with backend. You can easyly publish app the store."
         },
         "1": {
-          "Job": "Junior Develepor",
+          "Job": "Junior Developer",
           "Date": "Nov 2018–Feb 2019",
           "Firm": "Volant Yazılım A.Ş., Istanbul (Turkey)",
           "JobDescription": "Develop mobile project , update and add new reports. Updated on Android store and Ios store. Develop E-Commerce backend for sale and get product information with ASP.NET WebApi(restful)."
         },
         "2": {
-          "Job": "Junior Develepor",
+          "Job": "Junior Developer",
           "Date": "Jul 2017–Nov 2017",
           "Firm": "Volant Yazılım A.Ş., Istanbul (Turkey)",
           "JobDescription": "Develop mobile project for ERP , it provide to customer instant report. Develop web service for ERP. It provides data to mobile project.Project developed with Ionic 3 and ASP.NET WEBAPI. Web api service return results with JSON format. Published on Android store and Ios store."
         },
         "3": {
-          "Job": "Junior Develepor",
+          "Job": "Junior Developer",
           "Date": "Jul 2016–Sep 2016(Intern)",
           "Firm": "Volant Yazılım A.Ş., Istanbul (Turkey)",
           "JobDescription": "Develop web project for ERP instant reports. Develop web service for ERP. It provides data to web project. Project developed with ASP.NET MVC 5 and WCF service application. WCF service application return results with JSON format. Project contains Charts. That charts designed with NVD3 library."
         },
         "4": {
-          "Job": "Junior Develepor",
+          "Job": "Junior Developer",
           "Date": "Feb 2015–Sep 2015(Intern)",
           "Firm": "Start-up (Data Mining Project), Istanbul (Turkey) ",
           "JobDescription": "Develop database instant query part. This part supports MSSQL, MySQL and Oracle database and some simple design components, csv and excel file importer. Project developed on Visual Studio with C# language. Storing information on MySql with Entity Framework. Used DevExpress components for visualise."
